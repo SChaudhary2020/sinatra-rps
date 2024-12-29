@@ -1,5 +1,5 @@
 <h2>
-  We played paper!
+  We played scissors!
 </h2>
 
 <h2>
@@ -7,15 +7,16 @@
 </h2>
 
 <% if @outcome == "won" %>
-<h2 style="color: green">
+<h2>
   We <%= @outcome %>!
 </h2>
 <% elsif @outcome == "lost" %>
-<h2 style="color: red">
+<h2>
   We <%= @outcome %>!
 </h2>
+
 <% else %>
-<h2 style="color: black">
+<h2>
   We <%= @outcome %>!
 </h2>
 <% end %>
